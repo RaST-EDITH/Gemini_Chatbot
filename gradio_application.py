@@ -19,3 +19,7 @@ def get_gemini_response(question) :
     return response
 
 # Implementing gradio method
+iface = gr.Interface( fn=get_gemini_response, inputs=gr.components.Textbox(lines=7, label="Enter your text"),
+                      outputs="text", title="Custom-trained Chatbot")
+
+iface.launch(share=True)
