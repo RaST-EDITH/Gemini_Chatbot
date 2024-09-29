@@ -1,11 +1,10 @@
 # Chatbot using Gemini API
-from dotenv import load_dotenv
-load_dotenv()
-
 import os
 import streamlit as st
+from dotenv import load_dotenv
 import google.generativeai as genai
 
+load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # Funtion to load Gemini Pro model and get response
