@@ -22,8 +22,8 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/gemini-chatbot.git
-   cd gemini-chatbot
+   git clone https://github.com/RaST-EDITH/Gemini_Chatbot.git
+   cd Gemini_Chatbot
    ```
 
 2. **Create a virtual environment (optional but recommended):**
